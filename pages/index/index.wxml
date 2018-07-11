@@ -1,4 +1,54 @@
 <!--index.wxml-->
 <view class="container">
-    
+    <swiper autoplay="3000" indicator-dots="true" circular="true">
+      <swiper-item>
+        <image src="../img/index_01.jpg" />
+      </swiper-item>
+      <swiper-item>
+        <image src="../img/index_01.jpg" />
+      </swiper-item>
+      <swiper-item>
+        <image src="../img/index_01.jpg" />
+      </swiper-item>
+    </swiper>
 </view>
+
+<view class='tuijian'>
+  <view class='header'>
+    <text class='bdL'>精品推荐</text>
+    <text class='text2'>全部商品</text>
+  </view>
+  <view class='contents'>
+    <view class='img'>
+      <image src='../img/index_04.jpg' />
+      <text>国庆七天如何防毒</text>
+    </view>
+    <view class='img mL20'>
+      <image src='../img/index_06.jpg' />
+      <text>国庆七天如何防毒</text>
+    </view>
+    <view class='img'>
+      <image src='../img/index_06.jpg' />
+      <text>国庆七天如何防毒</text>
+    </view>
+    <view class='img mL20'>
+      <image src='../img/index_04.jpg' />
+      <text>国庆七天如何防毒</text>
+    </view>
+  </view>
+</view>
+
+<view class='pince'>
+  <view class='header'>
+    <text class='bdL'>热门评测</text>
+    <text class='text2'>全部评测</text>
+  </view>
+
+  <view class='bodys' wx:for="{{dataTuiJian}}" wx:key="index">
+    <image src='{{item.imgUrl}}'/>
+    <text class='text1'>{{item.tit}}</text>
+    <text class='text2 nowrap'>{{item.msg}}</text>
+  </view>
+</view>
+<text bindtap='chooseimages'>图片上传</text>
+

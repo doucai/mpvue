@@ -1,0 +1,6 @@
+<view class="index-container">
+   <image  src="../img/uc.jpg" ></image>
+   <view class="nickname">
+      {{username}}
+   </view>
+</view>

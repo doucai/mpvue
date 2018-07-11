@@ -1,0 +1,77 @@
+.container image{
+    width:750rpx;
+}
+.view1{
+  width: 750rpx;
+  height: 280rpx;
+  background: red;
+}
+.view2{
+  width: 70%;
+  height: 180rpx;
+  background: blue;
+}
+.view3{
+  width: 40%;
+  height: 80rpx;
+  background: green;
+}
+ .header{
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 30rpx;
+  padding: 20rpx 20rpx 0;
+}
+ .header .text2{
+  color: green;
+  font-weight: 900;
+  float: right;
+}
+.contents{
+  padding:0 20rpx;
+}
+.tuijian .img{
+  position: relative;
+  float: left;
+}
+.mL20{
+  margin-left: 10rpx;
+}
+.tuijian .img image{
+  width: 351rpx;
+  height: 206rpx;
+  margin-bottom: 10rpx;
+}
+.tuijian .img text{
+  width: 351rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 30rpx;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+}
+.pince .bodys image{
+  width: 750rpx;
+  height: 301rpx;
+}
+.pince .bodys .text1{
+  font-weight: 900;
+  font-size: 40rpx;
+  color: #000;
+  display: block;
+  margin-bottom: 10rpx;
+  padding: 0 20rpx;
+}
+.pince .bodys .text2{
+  font-size: 30rpx;
+  letter-spacing: 2rpx;
+  margin-bottom: 20rpx;
+  padding: 0 20rpx;
+}
+.bdL{
+  border-left:4rpx solid #000; 
+  padding-left: 10rpx;
+}
